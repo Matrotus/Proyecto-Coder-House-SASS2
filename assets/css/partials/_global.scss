@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Uchen", serif;
+}
+*::selection{
+  color: #e5e7eb;
+  background-color:aquamarine;
+}
+
+$mapColores: (
+  gradiante1: linear-gradient(180deg, rgba(240,128,128,1) 1%, rgba(231,32,66,1) 100%),
+  gradiante2: linear-gradient(180deg, rgba(240,128,128,1) 1%, rgb(255, 105, 130) 100%),
+  gradiante3: linear-gradient(180deg, rgba(231,32,66,1) 1%, rgba(240,128,128,1) 100%)
+  
+);
+
+header{
+  background: map-get($mapColores, gradiante1);
+}
+
+@mixin sombraCaja {
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.bordes {
+    border: solid black .5px;
+}
