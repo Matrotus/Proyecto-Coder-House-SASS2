@@ -1,0 +1,40 @@
+Contenido de SEO agregado:
+
+-Inicio:
+
+titulo del emprendimiento mas palabra clave referente a la pagina donde se encuentra. Lo de Maru - Inicio
+
+Descripcion: "Productos caseros y de calidad, proba nuestras exquisitas tortas!"
+--------------------------
+
+-Catalogo:
+
+titulo del emprendimiento mas palabra clave referente a la pagina donde se encuentra. Lo de Maru - Catalogo
+
+Descripcion:"Mira todas las cosas ricas que tenemos para ofrecerte!"
+---------------------------
+
+-Contactanos:
+
+titulo del emprendimiento mas palabra clave referente a la pagina donde se encuentra. Lo de Maru - Contactanos
+
+Descripcion: "Encargos de torta de cumpleaños, eventos, consultanos! Si es dulce lo podemos hacer!!"
+---------------------------
+
+-Promociones:
+
+titulo del emprendimiento mas palabra clave referente a la pagina donde se encuentra. Lo de Maru - Promociones
+
+Descripcion: "Las mejores promociones! Ofertas en tortas y dulces!"
+----------------------------
+
+-Quienes Somos:
+
+titulo del emprendimiento mas palabra clave referente a la pagina donde se encuentra. Lo de Maru - Quienes Somos
+
+Descripcion: "Nos especializamos en la elaboración y venta de productos dulces caseros, artesanales, horneados con un sólo objetivo: hacer cosas ricas!!!"
+------------------------------
+
+Keywords agregadas a todas las paginas:
+
+"tortas, postres, cosas ricas, pasteleria, dulces, torta de cumpleaños, promociones, casero"
