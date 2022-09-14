@@ -1,0 +1,7 @@
+.tituloCatalogo{
+    @extend .tituloCosas;
+    color: black;
+}
+.bgMain{
+    background: map-get($mapColores, gradiante1);
+}
