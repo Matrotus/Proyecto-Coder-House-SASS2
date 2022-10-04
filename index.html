@@ -16,9 +16,10 @@
   </head>
 
   <body>
+    <!-- HEADER -->
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <img class="logo" src="./assets/img/logo maru.png" alt="logo" />
           <a class="navbar-brand" href="#">Lo de Maru</a>
@@ -33,16 +34,8 @@
               <li class="nav-item">
                 <a class="nav-link " href="./pages/catalogo.html">Catalogo</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./pages/promociones.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Tienda
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/promociones.html">Postres</a></li>
-                  <li><a class="dropdown-item" href="./pages/promociones.html">Tortas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./pages/promociones.html">Ver todo</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/fechasFestivas.html">Fechas festivas </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
@@ -51,48 +44,47 @@
                 <a class="nav-link " href="./pages/quienes_somos.html">Quienes somos</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
-    <main class="bgMain">
+    <!-- MAIN -->
+    <main>
       <section class="imagenPrincipal d-flex flex-column justify-content-center align-items-center">
         <h2 class=" tituloCosas d-flex  p-3 ">Lo de Maru: Cosas Ricas</h2>
-        <h3 class=" d-flex justify-content-center align-items-center container text-light">PROBALOS Y DESPUES HABLAMOS</h3>
+        <h3 class=" d-flex justify-content-center align-items-center container text-light">SUMERGITE EN LO DULCE</h3>
       </section>
+      <div class="container-fluid">
+        <h2 class=" tituloCards d-flex flex-column justify-content-center align-items-center mt-5">Destacados del mes</h2>
+      </div>
+
+      <!-- SECCION TARJETITAS -->
       <section class="container">
-        <div class="row mt-5">
-          <div class=" mx-3 col-md-3">
+        <div class="row mt-5 p-4 gapRes">
+          <div class=" mx-auto col-md-4">
             <div class="card h-100">
-              <img src="./assets/img/unicornio.jpeg" class="card-img-top" alt="foto">
+              <img src="./assets/img/avengers.jpeg" class="card-img-top" alt="foto">
               <div class="card-body">
-                <h5 class="card-title text-light">Torta</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="button-83" role="button">Agregar al Carrito</button>
+                <p class=" pQuienes card-text">Muffins temáticos de vainilla o chocolate rellenos de dulce de leche.</p>
+                <button class="button-83 mx-auto" role="button">Agregar al Carrito</button>
               </div>
             </div>
           </div>
-          <div class=" mx-3 col-md-5">
+          <div class=" mx-auto col-md-4">
             <div class="card h-100">
-              <img src="./assets/img/WhatsApp Image 2022-08-04 at 3.01.42 PM.jpeg" class="card-img-top" alt="foto">
+              <img src="./assets/img/muffin.jpeg" class="card-img-top" alt="foto">
               <div class="card-body">
-                <h5 class="card-title text-light">Torta</h5>
-                <p class="card-text">Some quickd example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="button-83" role="button">Agregar al Carrito</button>
+                <p class=" pQuienes  card-text">Muffins temáticos de vainilla o chocolate rellenos de dulce de leche.</p>
+                <button class="button-83 mx-auto d-flex flex-column align-items-end" role="button">Agregar al Carrito</button>
               </div>
             </div>
           </div>
-          <div class=" mx-3 col-md-3">
+          <div class=" mx-auto col-md-4">
             <div class="card h-100">
-              <img src="./assets/img/WhatsApp Image 2022-08-04 at 3.01.51 PM (2).jpeg" class="card-img-top" alt="foto">
+              <img src="./assets/img/heladito.jpg" class="card-img-top" alt="foto">
               <div class="card-body">
-                <h5 class="card-title text-light">Torta</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="button-83" role="button">Agregar al Carrito</button>
+                <p class=" pQuienes card-text">Helado temático de vainilla o chocolate rellenos de dulce de leche.</p>
+                <button class="button-83 mx-auto" role="button">Agregar al Carrito</button>
               </div>
             </div>
           </div>
@@ -100,8 +92,8 @@
         </div>
       </section>
     </main>
-
-    <footer class=" p-3 d-flex justify-content-around align-items-center text-light  pie">
+<!-- FOOTER -->
+    <footer class=" p-3 d-flex justify-content-around align-items-center text-dark  pie">
       <div class="mt-5 mb-5">
         <p class="mb-3"> Todos los derechos reservados</p>
         <ul class="mt-4 list-unstyled d-flex justify-content-around">
@@ -110,7 +102,6 @@
           <img src="./assets/img/whatsapp.svg" alt="">
         </ul>
       </div>
-      
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>

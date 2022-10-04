@@ -8,7 +8,7 @@
 }
 *::selection{
   color: #e5e7eb;
-  background-color:aquamarine;
+  background-color:rgb(20, 21, 20);
 }
 
 $mapColores: (
@@ -19,7 +19,7 @@ $mapColores: (
 );
 
 header{
-  background: map-get($mapColores, gradiante1);
+  background-color: #beeef85c;
 }
 
 @mixin sombraCaja {

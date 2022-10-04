@@ -1,7 +1,12 @@
 .tituloCatalogo{
-    @extend .tituloCosas;
-    color: black;
+    @extend .tituloEspecial;
 }
-.bgMain{
-    background: map-get($mapColores, gradiante1);
-}
+.galeria{
+    transition: transform .5s;
+    }
+    .galeria:hover{
+      transform: scale(1.1) translateY(-10px);
+    }
+    .Catalogo{
+      background-color:#e8f9fc;
+    }
